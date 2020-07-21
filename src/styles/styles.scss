@@ -1,0 +1,35 @@
+$font: "Montserrat";
+
+// Colors
+$white: #fff;
+$black: #000;
+$light-blue: #528fa5;
+$dark-blue: #075373;
+$orange: #ef7745;
+$off-white: #f2f4f5;
+
+
+@import './header';
+@import './banner';
+@import './skills';
+@import './about';
+
+
+html,
+body {
+    font-family: $font;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.container,
+.row {
+    height: 100%;
+}
+
+h3 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 50px;
+}
